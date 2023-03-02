@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.main {
+    background-image: url("../images/main.png");
+}
+
+.header {
+    padding: 41px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text {
+    margin-left: 9px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    font-weight: 700;
+    font-size: 14px;
+    color: green;
+    list-style: none;
+    margin-left: 45px;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+li a:hover {
+    color: #34C759;
+}
+
+.center {
+    padding: 80px 0 164px 0;
+}
+
+.center-title {
+    font-size: 72px;
+    font-weight: 100;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.center-title span {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.center-text {
+    width: 595px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.btn {
+    border-radius: 43px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    padding: 25px;
+}
+
+.center-btn {
+    background-color: #34C759;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.center-contacts {
+   display: flex;
+   justify-content: space-between;
+    margin-top: 70px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts img {
+    width: 26px;
+    height: 26px;
+    margin-bottom: 16px;
+}
+
+.contacts-text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+.contacts-text2 {
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    color: #999999;
+}
+
