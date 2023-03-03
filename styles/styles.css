@@ -76,7 +76,7 @@ li a:hover {
 }
 
 .center-text {
-    width: 594px;
+    max-width: 594px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -116,7 +116,12 @@ li a:hover {
 .center-contacts {
    display: flex;
    justify-content: space-evenly;
+   flex-wrap: wrap;
    margin-top: 70px;
+}
+
+.contacts.position {
+    width: 215px;
 }
 
 .contacts {
@@ -191,7 +196,7 @@ li a:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    width: 734px;
+    max-width: 734px;
     color: #A6A6A6;
     margin-bottom: 73px;
 }
@@ -249,6 +254,8 @@ li a:hover {
 
 .how-blocks {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-right: -30px;
     margin-top: 60px;
 }
@@ -259,7 +266,7 @@ li a:hover {
     width: 255px;
     height: 206px;
     box-sizing: border-box;
-    margin-right: 30px;
+    margin: 20px 30px 0 0;
 }
 
 .how-block:hover .how-block-title,.how-block-text,.line {
@@ -474,12 +481,13 @@ li a:hover {
 .chef-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 38px -15px 120px -15px;
 }
 
 .chef-card {
    width: 350px;
-    padding: 0 15px;
+    padding: 15px;
 }
 
 .chef-about {
@@ -532,7 +540,6 @@ li a:hover {
 .recipe-block.block-1 {
     grid-column: 1/2;
     grid-row: 1/4;
-    width: 540px;
     background-size: cover;
     padding: 61px 0;
     text-align: center;
@@ -705,7 +712,13 @@ li a:hover {
     width: 350px;
     height: 330px;
     background-color: #252525;
-    margin: 0 15px;
+    margin: 15px;
+}
+
+.social-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .social-title {
@@ -777,9 +790,7 @@ li a:hover {
     font-size: 14px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.7);
-    margin-bottom: 10px;
     max-height: 120px;
-
 }
 .social-text::-webkit-scrollbar {
     width: 0;
@@ -803,6 +814,7 @@ body::-webkit-scrollbar {
     width: 300px;
     max-height: 340px;
     padding: 20px 5px 5px 30px;
+    box-sizing: border-box;
 }
 
 .element::-webkit-scrollbar {
